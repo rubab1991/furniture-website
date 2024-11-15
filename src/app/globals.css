@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.stripe-pattern {
+    background: repeating-linear-gradient(
+      90deg,
+      #fff,
+      #ffffff 20px,
+      #FFC0CB 10px,
+      #fdd2d9 100px
+    );
+  }
+  /* globals.css */
+.text-stripes {
+  background: repeating-linear-gradient(
+    90deg,
+    #fff,
+    #ffffff 20px,
+    #f8d0e4 10px,
+    #ffc0cb 100px
+  );
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
